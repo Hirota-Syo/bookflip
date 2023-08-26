@@ -1,0 +1,8 @@
+sudo apt install pigpio
+sudo service pigpiod start
+sudo systemctl enable pigpiod.service
+
+$ python3 -m venv env
+$ source env/bin/activate
+(env) $ pip install pigpio
+(env) $ pip install gpiozero
